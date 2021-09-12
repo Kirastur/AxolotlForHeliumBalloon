@@ -4,10 +4,7 @@
 Our Minecraft Plugin "HeliumBalloon" is based on Minecraft 1.16. It is compatible to Minecraft 1.17 in the way that you can use it with Minecraft 1.17 and that you can use the 1.17 ENUMs for Blocks and Entities. But you don't have customization for 1.17 Balloons or Pets. This will done in a future relase when we integrate native 1.17 support. Meanwhile we have created an extra plugin to customze these entities.
 
 ## Example for SpawnModifier
-
-
-This is a Demo-Plugin for HeliumBalloon
-to demonstrate how you can implement a CustomSpawnModifier.
+HeliumBalloon has a powerful API where you can control almost everything of the Plugin function. This is also a Demo-Plugin for HeliumBalloon to demonstrate how you can implement a CustomSpawnModifier.
 
 In this example we use the "custom" attribute of the animal element
 to define a horse color and a horse style.
