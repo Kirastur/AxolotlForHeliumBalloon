@@ -1,7 +1,7 @@
 # AxolotlForHeliumBalloon
 
 ## Introduction
-Our Minecraft Plugin "HeliumBalloon" is based on Minecraft 1.16. It is compatible to Minecraft 1.17 in the way that you can use it with Minecraft 1.17 and that you can use the 1.17 ENUMs for Blocks and Entities. But you don't have customizations for blocks and entities introduced in minecraft 1.17. This will done in a future relase when we integrate native 1.17 support. Meanwhile we have created an extra plugin to customze these entities.
+Our Minecraft Plugin "HeliumBalloon" is based on Minecraft 1.16. It is compatible to Minecraft 1.17 in the way that you can use it with Minecraft 1.17 and that you can use the 1.17 ENUMs for Blocks and Entities. But you don't have the customizations for blocks and entities introduced in minecraft 1.17. This will done in a future relase when we integrate native 1.17 support. Meanwhile we have created an extra plugin to customze these entities.
 
 ## Example for SpawnModifier
 HeliumBalloon has a powerful API where you can control almost everything of the Plugin function. This is also a Demo-Plugin for HeliumBalloon to demonstrate how you can implement a CustomSpawnModifier.
