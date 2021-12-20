@@ -1,0 +1,45 @@
+# Welcome to the AxolotlForHeliumBalloon configuration settings
+#
+# This is a Demo-Plugin for HeliumBalloon
+# to demonstrate how you can implement a Custom Spawn Modifier
+# by using the BalloonElementCreateEvent.
+# It adds the axolotl, which is new in minecraft 1.17
+#
+# In this example we use the "custom" attribute of the living element
+# to define the axolotl variant.
+#
+# The following configuration is loaded as part of the Balloon Config.
+# It offers a blue axolotl as pet.
+
+templates:
+    demoAxolotl:
+        living:
+           type: AXOLOTL
+           custom: BLUE
+           leash: true
+           
+pets:
+    demoAxolotl:
+        templates: demoAxolotl
+        title: "A blue axolotl"
+        title_de: "Ein blauer Axolotl"
+        icon: AXOLOTL_BUCKET
+
+
+# To test this demo, login into minecraft and assign this new pet to your player
+# by using "/balloon assign demoAxolotl"
+#
+# If the player doesn't have the permission to use all pets, you must assign him
+# the "balloon.pet.demoAxolotl" permission first.
+#
+# Values for "custom" are:
+#   BLUE, CYAN, GOLD, LUCKY, WILD
+#
+# Please see the Spiggot API for a detailed description
+#   https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/Axolotl.Variant.html 
+#
+# You can find the source code for this demo-plugin at
+# https://github.com/Kirastur/AxolotlForHeliumBalloon
+#
+# This Demo needs HeliumBalloon in the version 1.9 or above.
+# https://www.spigotmc.org/resources/heliumballoon.95902/
