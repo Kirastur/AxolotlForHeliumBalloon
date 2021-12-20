@@ -3,7 +3,7 @@
 ## Introduction
 This plugin has two purposes:
 1. Add support for the new minecraft 1.17 animals to HeliumBalloon
-2. Act as a demo-plugin how you can implement a CustomSpawnModifier for Heliumballoon
+2. Act as a demo-plugin how you can implement a Custom SpawnM odifier for Heliumballoon
 
 ## Minecraft 1.17 animals
 Our Minecraft Plugin "HeliumBalloon" is based on Minecraft 1.16. It is compatible to Minecraft 1.17 in the way that you can use it with Minecraft 1.17 and that you can use the 1.17 ENUMs for Blocks and Entities. But you don't have the customizations for blocks and entities introduced in minecraft 1.17. This will done in a future relase when we integrate native 1.17 support. Meanwhile we have created an extra plugin to customze these entities.
@@ -16,19 +16,9 @@ In this example we use the "custom" attribute of the animal element to define an
 ## First steps
 Install the HeliumBalloon plugin from https://www.spigotmc.org/resources/heliumballoon.95902
 
-Add the following template configuration to your HeliumBalloon config.yml
+To test this demo, login into minecraft and assign this new pet to your player by using "/balloon assign demoAxolotl"
 
-    templates:
-        demo6:
-            animal:
-            type: AXOLOTL
-            custom: BLUE
-            leash: true
-
-Then login into minecraft and assign this new pet to your player
-by using "/balloon assign demo6"
-
-You should see a blue axoloth with a leash.
+If the player doesn't have the permission to use all pets, you must assign him the "balloon.pet.demoAxolotl" permission first.
 
 Note: An axolotl is a water pet. There can be some unexpected behavior if you summon you axolotl pet on land. Try again in water.
 
