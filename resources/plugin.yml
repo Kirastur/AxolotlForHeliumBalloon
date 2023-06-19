@@ -1,11 +1,11 @@
 name: AxolotlForHeliumBalloon
-version: 1.9
+version: 2.0
 description: Add customization for minecraft 1.17 axolotl to HeliumBalloon
 author: Kirastur
 website: https://github.com/Kirastur/AxolotlForHeliumBalloon
 
 
-api-version: 1.17
+api-version: 1.19
 load: POSTWORLD
 main: de.polarwolf.axolotl.Main
 depend: [HeliumBalloon]
